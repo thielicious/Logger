@@ -1,5 +1,13 @@
 <?php
 
+	/* 
+		Logger v1.0
+		(c) 2017 by Thielicious
+		
+		Logger is a simple class in PHP that lets you record actions done by clients in a txt file.
+	*/
+
+
 	class Logger {
 		
 		private
