@@ -34,8 +34,11 @@ if (isset($_GET["logout"])) {
     $log->putLog("Logout: ".$_SESSION["user_name"]);
 }
 ```
+
 If you want to see the log, use this:<br>
-`$log->getLog();`
+```
+$log->getLog();
+```
 
 
 It will render like this:<br>
