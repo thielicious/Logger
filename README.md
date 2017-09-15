@@ -1,5 +1,5 @@
 # Logger
-##### Small logger class in PHP that lets you record done by clients in a txt file.
+##### Small logger class in PHP that lets you record actions done by clients in a txt file.
 ---
 
 <br>
