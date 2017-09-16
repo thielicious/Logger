@@ -35,6 +35,10 @@
 			return $content;
 		}
 		
+		public function clear() {
+			@unlink($this->file);
+		}
+		
 	}
 
 ?>
