@@ -65,7 +65,10 @@ Sun Jul 02 '17 05.46 PM » Logout: JohnDoe
 
 **Logger::getLog()**
 * To display the content of a log file, simply use this method.<br>
+<br>
 
+**Logger::clear()**
+* Deletes the log file.<br>
 
 <br>
 <br>
