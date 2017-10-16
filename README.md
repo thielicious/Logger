@@ -1,12 +1,12 @@
 # Logger
-##### Small logger class in PHP that lets you record actions done by clients in a txt file.
+##### Small logger class in PHP that lets you record actions done in a txt file.
 ---
 
 <br>
 
 ## INTRODUCTION
 
-**Logger** is a small class in PHP which you can use for logging actions in a TXT file executed by user clients.
+**Logger** is a small class in PHP which you can use for logging actions in a TXT file.
 
 <br>
 
