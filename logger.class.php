@@ -26,7 +26,7 @@
 			if (isset($this->prefix)) {
 				file_put_contents($this->file, $this->prefix.$insert."<br>", FILE_APPEND);
 			} else {
-				trigger_error("Timestamp not set", E_USER_ERROR); & die;
+				trigger_error("Timestamp not set", E_USER_ERROR) & die;
 			}
 		}
 		
