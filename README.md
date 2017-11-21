@@ -52,7 +52,7 @@ Sun Jul 02 '17 05.46 PM » Logout: JohnDoe
 ## METHODS
 
 **Logger::__construct(string $filename)**
-* Choose a filename for the logging content.<br>
+* Choose a filename to store the log.<br>
 <br>
 
 **Logger::setTimestamp(string $format)**
@@ -60,7 +60,7 @@ Sun Jul 02 '17 05.46 PM » Logout: JohnDoe
 <br>
 
 **Logger::putLog(string $content)**
-* This will record any actions in the given log file.<br>
+* This will store the log in the file.<br>
 <br>
 
 **Logger::getLog()**
