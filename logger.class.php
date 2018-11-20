@@ -12,21 +12,21 @@
 		
 		private
 			$file,
-			$prefix;
+			$timestamp;
 			
 		public function __construct(string $filename) {
 			$this->file = $filename;
 		}
 		
 		public function setTimestamp(string $format) {
-			$this->prefix = "<strong>".date($format)." &raquo; </strong>";
+			$this->timestamp = "<strong>".date($format)." &raquo; </strong>";
 		}
 		
 		public function putLog(string $insert) {
-			if (isset($this->prefix)) {
-				file_put_contents($this->file, $this->prefix.$insert."<br>", FILE_APPEND);
+			if (isset($this->timestamp)) {
+				file_put_contents($this->file, $this->timestamp.$insert."<br>", FILE_APPEND);
 			} else {
-				trigger_error("Timestamp not set", E_USER_ERROR) & die;
+				trigger_error("Timestamp not set", E_USER_ERROR);
 			}
 		}
 		
