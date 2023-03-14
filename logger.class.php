@@ -4,7 +4,7 @@
 		Logger v1.0
 		(c) 2017 by Thielicious
 		
-		Logger is a simple class that lets you record done actions in a text file.
+		Logger is a simple class that lets you record actions in a text file.
 	*/
 
 
