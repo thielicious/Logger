@@ -26,7 +26,7 @@ $log->setTimestamp("D M d 'y h.i A");
 ```
 
 For example, when a user logs in, use it like this to store:<br>
-```
+```php
 if (isset($_POST["logged_in"])) {
     $log->putLog("Successful Login: ".$_SESSION["user_name"]);
 }
