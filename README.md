@@ -20,7 +20,7 @@ Use your CLI and enter the following to clone:<br>
 ## USAGE
 
 Create an object :
-```
+```php
 $log = new Logger("log.txt");
 $log->setTimestamp("D M d 'y h.i A");
 ```
@@ -36,7 +36,7 @@ if (isset($_GET["logout"])) {
 ```
 
 If you want to see the log, use this:<br>
-```
+```php
 $log->getLog();
 ```
 
